@@ -23,7 +23,7 @@ body {
   background-color: #1968fc;
   text-transform: uppercase;
   -webkit-box-shadow: 0 10px 40px rgba(25, 104, 252, 0.2);
-          box-shadow: 0 10px 40px rgba(25, 104, 252, 0.2);
+  box-shadow: 0 10px 40px rgba(25, 104, 252, 0.2);
   text-shadow: 0 10px 40px rgba(25, 104, 252, 0.2);
   padding: 15px;
   -webkit-transition: all .2s ease-in;
@@ -159,7 +159,7 @@ body {
 }
 
 .label-2 {
-  padding: 20px 30px;
+  padding: 15px 30px;
 }
 
 .main__wrapper {
@@ -185,15 +185,6 @@ body {
   margin-bottom: 20px;
 }
 
-.main__title_mobile {
-  display: none;
-  font-size: 40px;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  font-weight: 700;
-  color: #11223f;
-  margin-bottom: 20px;
-}
 
 .main__text {
   font-size: 20px;
@@ -415,8 +406,7 @@ body {
 }
 
 .vangoux__card:hover {
-  background-color: #1968fc;
-  color: #fff;
+  background-color: #f3f7ff;
 }
 
 .vangoux__card_title {
@@ -857,12 +847,11 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .main__title {
+
+  .main__title > span {
     display: none;
   }
-  .main__title_mobile {
-    display: block;
-  }
+  
   .main__photo {
     max-width: 100%;
   }

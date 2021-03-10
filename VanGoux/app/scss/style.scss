@@ -92,7 +92,6 @@ body {
         justify-content: flex-end;
         margin-right: 50px;
         font-size: 14px;
-
         &_link {
             margin-left: 40px;
             text-decoration: none;
@@ -186,7 +185,6 @@ body {
         padding: 0px 30px;
         line-height: 50px;
         margin-bottom: 160px;
-       
     }
     &__photo {
         position: relative;
@@ -259,7 +257,6 @@ body {
     }
 }
 
-
 .features {
     &__container {
         position: relative;
@@ -318,12 +315,9 @@ body {
             &:hover {
                 color: white;
             }
-
-            
         }
     }
 }
-
 
 .vangoux {
     &__title {
@@ -363,7 +357,6 @@ body {
         }
     }
 }
-
 
 .opportunity {
     margin-bottom: 120px;
@@ -442,8 +435,6 @@ body {
         }
     }
 }
-
-
 
 .contact {
     &__container {
@@ -620,8 +611,6 @@ body {
     }
 }
 
-
-
 @media screen and (max-width: 1023px) {
     .reviews {
         grid-template-columns: 1fr;
@@ -742,9 +731,6 @@ body {
     }
 }
 
-
-
-
 @media screen and (max-width: 640px) {
     .main {
         &__photo {
@@ -785,7 +771,6 @@ body {
            &_link {
                 margin: 0;
                 margin-bottom: 40px;
-               
                 &:first-child {
                     padding: 0px;
                     margin-bottom: 40px;
@@ -844,7 +829,6 @@ body {
            &_link {
                 margin: 0;
                 margin-bottom: 40px;
-               
                 &:first-child {
                     padding: 0px;
                     margin-bottom: 40px;
