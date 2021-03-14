@@ -1,4 +1,5 @@
-# VonGoux__it-s_landing_page
-my projects
+It's simple landing page, without JS functionality:
 
-It's simple landing lage, without functionality
++ Adaptive markup;
++ Grid + flexbox;
++ Gulp & scss;
